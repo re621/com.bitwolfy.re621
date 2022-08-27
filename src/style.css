@@ -1,0 +1,99 @@
+/* Common */
+body {
+    background: #020f23;
+    margin: 0 1rem;
+    color: white;
+    font-family: "Geneva", "Verdana", sans-serif;
+}
+
+p {
+    display: block;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+p:last-child {
+    padding-bottom: 0;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #ffee95;
+}
+
+a:hover {
+    color: #f68b00;
+}
+
+h1, h2, h3 {
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+}
+
+/* Content */
+content {
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 1200px;
+    background: #002e56;
+    background-image:
+        url("/static/assets/theme/spring_bottom.png"),
+        url("/static/assets/theme/spring_bottom_fox.png"),
+        url("/static/assets/theme/spring_top.png"),
+        url("/static/assets/theme/spring_top_sky.png");
+    background-position: left bottom,
+        right bottom,
+        right top,
+        left top;
+    background-repeat: repeat-x,
+        no-repeat,
+        no-repeat,
+        repeat-x;
+    border-radius: 6px;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+header-links {
+    margin-top: 1rem;
+}
+
+/* Body */
+section {
+    display: flex;
+    flex-flow: column;
+    margin-top: 1rem;
+}
+section a.install-link {
+    align-self: center;
+    margin: 1rem;
+}
+section a.install-link img {
+    width: 15rem;
+}
+
+feat {
+    display: flex;
+    margin: 1rem 0;
+}
+feat img {
+    width: 30%;
+}
+feat desc {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    margin: 0 1rem;
+}
+feat desc:last-child {
+    margin-right: 0;
+}
+feat desc:first-child {
+    margin-left: 0;
+}

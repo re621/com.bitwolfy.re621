@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule \/static\/assets\/(.*) /assets/$1 [L]
+
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule (.*) /src/$1 [L]
