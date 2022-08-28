@@ -4,16 +4,16 @@
     <title>RE621: E621, Re-Imagined</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./static/assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./static/assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./static/assets/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/site.webmanifest">
 </head>
 
 <body>
     <content>
         <header>
-            <img src="./static/assets/logo.png" alt="RE621">
+            <img src="./assets/logo.png" alt="RE621">
             <header-links>
                 <a href="https://github.com/re621/re621/releases">
                     <img src="https://img.shields.io/github/v/release/re621/re621?label=version&style=flat-square"
@@ -83,11 +83,10 @@
                     current settings</b>
             </p>
             <p>
-                Instead, manually update the script by clicking the <a
-                    href="./static/assets/help/update-1.jpg">tampermonkey
+                Instead, manually update the script by clicking the <a href="./assets/help/update-1.jpg">tampermonkey
                     icon</a> in the
-                toolbar, selecting <a href="./static/assets/help/update-2.jpg">Dashboard</a>,
-                and then left-clicking on the <a href="./static/assets/help/update-3.jpg">last
+                toolbar, selecting <a href="./assets/help/update-2.jpg">Dashboard</a>,
+                and then left-clicking on the <a href="./assets/help/update-3.jpg">last
                     update</a> column for the script. A new version will then be installed automatically.
             </p>
             <p>
@@ -101,7 +100,7 @@
             <h1>Features</h1>
 
             <feat>
-                <img src="./static/assets/features/subscriptions.gif">
+                <img src="./assets/features/subscriptions.gif">
                 <desc>
                     <h3>Subscriptions</h3>
                     <p>
@@ -117,7 +116,7 @@
             </feat>
 
             <feat>
-                <img src="./static/assets/features/downloader.gif">
+                <img src="./assets/features/downloader.gif">
                 <desc>
                     <h3>Mass Downloader</h3>
                     <p>
@@ -132,7 +131,7 @@
             </feat>
 
             <feat>
-                <img src="./static/assets/features/search.gif">
+                <img src="./assets/features/search.gif">
                 <desc>
                     <h3>Better Search</h3>
                     <p>
@@ -148,7 +147,7 @@
             </feat>
 
             <feat>
-                <img src="./static/assets/features/header.gif">
+                <img src="./assets/features/header.gif">
                 <desc>
                     <h3>Header Customizer</h3>
                     <p>
@@ -162,7 +161,7 @@
             </feat>
 
             <feat>
-                <img src="./static/assets/features/smart-alias.png">
+                <img src="./assets/features/smart-alias.png">
                 <desc>
                     <h3>Smart Alias</h3>
                     <p>
@@ -184,7 +183,7 @@
             </feat>
 
             <feat>
-                <img src="./static/assets/features/post-ui.png">
+                <img src="./assets/features/post-ui.png">
                 <desc>
                     <h3>Post Page UI Improvements</h3>
                     <p>

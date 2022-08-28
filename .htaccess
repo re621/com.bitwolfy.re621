@@ -1,6 +1,30 @@
 RewriteEngine On
+DirectorySlash Off
 
-RewriteRule \/static\/assets\/(.*) /assets/$1 [L]
+# Prevent viewing of .htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+# Prevent directory listings
+Options All -Indexes
+
+# Rewrite directory names to have trailing slashes
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*?[^/])$ %{REQUEST_URI}/ [NC,QSA]
+
+
+# Rewrite cache/images to cache/images/index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^cache\/images\/(.*)$ /public/cache/images/index.php?version=$1 [L,NC,QSA]
+
+
+# Rewrite all paths to /public
+RewriteCond %{REQUEST_URI} !assets/.*
+RewriteCond %{REQUEST_URI} !util/.*
+RewriteCond %{REQUEST_URI} !public/.*
 
 RewriteCond %{ENV:REDIRECT_STATUS} ^$
-RewriteRule (.*) /src/$1 [L]
+RewriteRule ^(.*)$ /public/$1 [L,NC,QSA]

@@ -39,10 +39,10 @@ content {
     max-width: 1200px;
     background: #002e56;
     background-image:
-        url("/static/assets/theme/spring_bottom.png"),
-        url("/static/assets/theme/spring_bottom_fox.png"),
-        url("/static/assets/theme/spring_top.png"),
-        url("/static/assets/theme/spring_top_sky.png");
+        url("./assets/theme/spring_bottom.png"),
+        url("./assets/theme/spring_bottom_fox.png"),
+        url("./assets/theme/spring_top.png"),
+        url("./assets/theme/spring_top_sky.png");
     background-position: left bottom,
         right bottom,
         right top,

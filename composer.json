@@ -1,0 +1,13 @@
+{
+    "name": "re621/site",
+    "authors": [
+        {
+            "name": "bitWolfy"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "license": "GPL-3.0",
+    "homepage": "https://re621.bitwolfy.com/"
+}
