@@ -62,7 +62,9 @@
             <h1>Installation</h1>
             <p>
                 The project is delivered via a userscript. That means that a script manager is required to run it.<br />
-                Both <a href="">Tampermonkey</a> and <a href="">Violentmonkey</a> are supported, but the former is
+                Both <a href="https://tampermonkey.net/" target="_blank">Tampermonkey</a> and <a
+                    href="https://violentmonkey.github.io/" target="_blank">Violentmonkey</a> are supported, but the
+                former is
                 recommended.<br />
                 Note that Greasemonkey is not officially supported, and is not guaranteed to work.
             </p>
